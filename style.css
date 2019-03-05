@@ -9,22 +9,34 @@ p{
 a{
     text-decoration: none;
 }
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: 0.8rem;
+}
 .main{
     margin:0 auto;
     width: 100%;
     /*border: 2px solid black;*/
-    height: 1000px;
+    /*height: 1000px;*/
     text-align: center;
+}
+#navUp{
+    position: fixed;
+    right: 15%;
+    top: 90%;
 }
 .container{
     height: 100%;
     width: 100%;
     display: inline-flex;
 }
+/*left*/
 .left-col{
     /*background: red;*/
-    border-right:1px solid black;
-    height: 100%;
+    border-right:1px solid #90949c;
+    /*height: 100%;*/
     width: 15%;
     margin-right: 5%;
     text-align: left;
@@ -43,7 +55,7 @@ a{
 a:hover{
     color:black;
 }
-
+/*right*/
 .right-col{
     /*background: blue;*/
     height: 100%;
@@ -58,9 +70,23 @@ a:hover{
     text-align: left;
     font-size: 15px;
 }
+.skills{
+    font-size: 0.7em;
+    text-align: left;
+    padding: 10%;
+}
+.skills > p{
+    margin: 0px;
+}
+.progress{
+    margin:0 0 10% 0;
+}
+
+
+/*middle*/
 .box{
-    margin-bottom: 10%;
-    padding:10px;
+    /*margin-bottom: 5%;*/
+    /*padding:10px;*/
     /*background: aliceblue;*/
     text-align: left;
 }
@@ -90,11 +116,12 @@ a:hover{
 #experience{
     margin: 5% 1% ;
     font-size: 0.7em;
+    line-height: 1.7em;
 }
 .col{
     margin-bottom: 5%;
     width:100%;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     display: inline-flex;
 }
 .col > .logo{
@@ -110,4 +137,14 @@ a:hover{
     margin-left: 2rem;
     line-height: 1.5rem;
     /*background: blue;*/
+}
+.col > .gameDisplay{
+    width: 40%;
+    background:red;
+}
+.gameDisplay >img{
+    width:80%;
+}
+.text > h4{
+    margin: 0px;
 }
