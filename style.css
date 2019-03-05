@@ -1,0 +1,35 @@
+body{
+    padding:0 10% 0 10%;
+}
+
+.main{
+    margin:0 auto;
+    width: 100%;
+    border: 2px solid black;
+    height: 1000px;
+    text-align: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    border:1px solid purple;
+    display: inline-flex;
+}
+.left-col{
+    background: red;
+    height: 100%;
+    width: 15%;
+    margin-right: 5%;
+}
+.center-col{
+    background: yellow;
+    height: 100%;
+    width: 55%;
+    margin-right: 5%;
+
+}
+.right-col{
+    background: blue;
+    height: 100%;
+    width: 20%;
+}
