@@ -4,31 +4,82 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="controller.js"></script>
-    <title>Jinghan Cao' Online Porrforlio</title>
+    <title>Jinghan Cao' Online Portfolio</title>
 </head>
 <body>
     <div class="main">
         <h2> Jinghan Cao   </h2>
         <div class="container">
             <div class="left-col">
-                <div class="left-nav"><a>Self Introduction</a></div>
-                <div class="left-nav"><a>Education History</a></div>
-                <div class="left-nav"><a>School Projects</a></div>
-                <div class="left-nav"><a>Work Experience</a></div>
-
+                <div class="left-nav"><a href="#selfIntro">Self Introduction</a></div>
+                <div class="left-nav"><a href="#education">Education History</a></div>
+                <div class="left-nav"><a href="#projects">School Projects</a></div>
+                <div class="left-nav"><a href="#experience">Work Experience</a></div>
             </div>
             <div class="center-col">
-                <div id="selfIntro"></div>
-                <div id="education"></div>
-                <div id="projects"></div>
-                <div id="experience"></div>
+                <div class="box"  id="selfIntro">
+                    <h3>About Me</h3>
+                    <p>
+                        I am currently an enrolled graduate student in Computer Science in San Francisco State University. Prior to studying in San Francisco, I was working as a front end developer in Shanghai, China. I was using AngularJS to help the company set up the website for local urban planning authorities. <br><br>
+                        Apart from the school courses, I am also taking online courses about AI and Android Development. I am currently working on side projects using NodeJS, React and MySQL to set up a e-commerce website deployed on local host.
+                    </p>
+                </div>
+                <div class="box" id="education" >
+                    <h3>Education</h3>
+                    <div class="col">
+                        <div class="logo">
+                            <img src="materials/sfsu.jpg">
+                            <p>2018-2020</p>
+                        </div>
+                        <div class="text">
+                            <p>San Francisco State University </p>
+                            <p>Master of Science: Computer Science</p>
+                            <p>GPA: 4.0/4.0</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="logo">
+                            <img src="materials/cardiff.jpg">
+                            <p>2018-2020</p>
+                        </div>
+                        <div class="text">
+                            <p>Cardiff University(UK) 2013-2015</p>
+                            <p>Master of Art: Urban Design</p>
+                            <p>GPA: 3.7/4.0</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="logo">
+                            <img src="materials/xjtlu.jpg">
+                            <p>2018-2020</p>
+                        </div>
+                        <div class="text">
+                            <p>Xi'an Jiaotong-Liverpool University 2009-2013</p>
+                            <p>Bachelor of Engineering: Urban Planning and Design</p>
+                            <p>GPA: 3.7/4.0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" id="projects">
+                    <h3>School Projects</h3>
+                    <p>11111111111</p>
+                </div>
+
+                <div class="box" id="experience">
+                    <h3>Working Experience</h3>
+                    <p>11111111111</p>
+                </div>
+
+
+
             </div>
             <div class="right-col">
                 <img src="materials/self.png" class="selfie">
                 <div class="contact">
                     <p><i class="far fa-envelope"></i>&nbsp;&nbsp;jcao3@mail.sfsu.edu</p>
                     <p><i class="fab fa-github-square"></i>&nbsp;&nbsp;<a href="https://github.com/KamyC" target="_blank">https://github.com/KamyC</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;San Francisco, CA</p>
                 </div>
             </div>
         </div>

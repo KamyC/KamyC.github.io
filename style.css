@@ -1,8 +1,14 @@
 body{
     padding:0 10% 0 10%;
     color:#90949c;
+    margin:0px;
 }
-
+p{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
 .main{
     margin:0 auto;
     width: 100%;
@@ -13,7 +19,6 @@ body{
 .container{
     height: 100%;
     width: 100%;
-    /*border:1px solid purple;*/
     display: inline-flex;
 }
 .left-col{
@@ -38,16 +43,12 @@ body{
 a:hover{
     color:black;
 }
-.center-col{
-    background: yellow;
-    height: 100%;
-    width: 55%;
-    margin-right: 5%;
-}
+
 .right-col{
     /*background: blue;*/
     height: 100%;
     width: 20%;
+    line-height: 1.5rem;
 }
 .selfie{
     width:80%;
@@ -56,4 +57,57 @@ a:hover{
     padding-left: 10% ;
     text-align: left;
     font-size: 15px;
+}
+.box{
+    margin-bottom: 10%;
+    padding:10px;
+    /*background: aliceblue;*/
+    text-align: left;
+}
+
+.center-col{
+    /*background: yellow;*/
+    /*height: 100%;*/
+    width: 55%;
+    margin-right: 5%;
+    /*border:1px solid black;*/
+
+}
+
+#selfIntro{
+    margin: 5% 1% ;
+    font-size: 0.7em;
+    line-height:1.7em;
+}
+#education{
+    margin: 5% 1% ;
+    font-size: 0.7em;
+}
+#projects{
+    margin: 5% 1% ;
+    font-size: 0.7em;
+}
+#experience{
+    margin: 5% 1% ;
+    font-size: 0.7em;
+}
+.col{
+    margin-bottom: 5%;
+    width:100%;
+    /*border: 1px solid black;*/
+    display: inline-flex;
+}
+.col > .logo{
+    width: 20%;
+    text-align: center;
+    /*background: yellow;*/
+}
+.logo > img{
+    width:80%;
+}
+.col > .text{
+    width: 70%;
+    margin-left: 2rem;
+    line-height: 1.5rem;
+    /*background: blue;*/
 }
