@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="materials/jquery-3.3.1.min.js"></script>
+    <script src="controller.js"></script>
     <title>Jinghan Cao' Online Portfolio</title>
 </head>
 <body>
     <div class="main" id="main">
-        <h2> Jinghan Cao   </h2>
+        <h2> Jinghan Cao  </h2>
         <div id="navUp"><a style="cursor: pointer" href="#main"><i class="fas fa-angle-double-up"></i></a></div>
         <div class="container">
             <div class="left-col">
@@ -38,6 +40,23 @@
                             <p>San Francisco State University </p>
                             <p>Master of Science: Computer Science</p>
                             <p>GPA: 4.0/4.0</p>
+                            <a style="cursor: pointer"><div id="expansion"><i class="far fa-plus-square"></i>&nbsp;Courses</div></a>
+                            <div id="courses">
+                                <p><b>School Course:</b><br>
+                                    • Machine Structure (A)<br>
+                                    • Programming Methodology (A)<br>
+                                    • Advanced Software Lab (A)<br>
+                                    • Software Development (A)<br>
+                                    • Operating System Principles (A)<br>
+                                    <b>Online Courses:</b><br>
+                                    • C++ Online Training<br>
+                                    • Data Structure<br>
+                                    • Assembly Language<br>
+                                    • Computer Organization<br>
+                                    • Algorithmic Toolbox<br>
+                                </p>
+
+                            </div>
                         </div>
                     </div>
                     <div class="col">
@@ -46,7 +65,7 @@
                             <p>2013-2015</p>
                         </div>
                         <div class="text">
-                            <p>Cardiff University(UK)</p>
+                            <p>Cardiff University (UK)</p>
                             <p>Master of Art: Urban Design</p>
                             <p>GPA: 3.7/4.0</p>
                         </div>
@@ -68,30 +87,33 @@
                     <h3>School Projects</h3>
                     <div class="col">
                         <div class="gameDisplay">
-                            <img src="">
+                            <img src="materials/galactic.jpg">
                         </div>
                         <div class="text">
-                            <h4>Galactic Carrier</h4>
-                            <p>This is </p>
+                            <h4><a href="https://github.com/KamyC/CSC413_Software-Development/tree/master/Galactic%20Carrier">Galactic Carrier</a></h4>
+                            <p>This is a game developed in Java and its awt library. This coursework is mainly to practise my understanding about OOP and basic programming skills using Java.</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="gameDisplay">
-                            <img src="">
+                            <img src="materials/tank.jpg">
                         </div>
                         <div class="text">
-                            <h4>Tank Game</h4>
-                            <p>This is </p>
+                            <h4><a href="https://github.com/KamyC/CSC413_Software-Development/tree/master/Tank_Game/csc413-tankgame-KamyC">Tank Game</a></h4>
+                            <p>This game is developed in Java and allows two players to control tanks at the same time. Each player has own split screen to monitor the tank. </p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="gameDisplay">
-                            <img src="">
+                            <img src="materials/shell.jpg">
                         </div>
                         <div class="text">
-                            <h4>Simple Shell</h4>
-                            <p>This is </p>
+                            <h4><a href="https://github.com/KamyC/CSC415_Intro-to-Operating-System/tree/master/HM3/csc415-p3-KamyC">Simple Shell</a></h4>
+                            <p>This is a program developed in C in Linux environment. To simulate the basic functions of Linux shell, system calls are applied to read the input arguments and execute them. </p>
                         </div>
+                    </div>
+                    <div class="col">
+                        <p>Find more about my school coursework : <a href="https://github.com/KamyC/CSC413_Software-Development/tree/master/Assignment_1">Calculator</a><a href="https://github.com/KamyC/CSC413_Software-Development/tree/master/Assignment_2">&nbsp;Interpreter</a><a href="https://github.com/KamyC/CSC415_Intro-to-Operating-System/tree/master/HM4/csc415-p4-KamyC">&nbsp;Thread Racing</a> <a href="https://github.com/KamyC/CSC415_Intro-to-Operating-System/tree/master/HM5/csc415-p5-KamyC/part2">&nbsp;Producer & Consumer</a></p>
                     </div>
 
                 </div>

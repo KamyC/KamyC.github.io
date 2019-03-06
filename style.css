@@ -37,7 +37,7 @@ h4{
     /*background: red;*/
     border-right:1px solid #90949c;
     /*height: 100%;*/
-    width: 15%;
+    width: 18%;
     margin-right: 5%;
     text-align: left;
     font-size: 15px;
@@ -95,9 +95,8 @@ a:hover{
     /*background: yellow;*/
     /*height: 100%;*/
     width: 55%;
-    margin-right: 5%;
+    margin-right: 3%;
     /*border:1px solid black;*/
-
 }
 
 #selfIntro{
@@ -109,6 +108,17 @@ a:hover{
     margin: 5% 1% ;
     font-size: 0.7em;
 }
+#expansion{
+    height: 1.5rem;
+    font-size: 0.7rem;
+    width:20%;
+}
+#courses{
+    width: 100%;
+    /*background: red;*/
+}
+
+
 #projects{
     margin: 5% 1% ;
     font-size: 0.7em;
@@ -116,12 +126,12 @@ a:hover{
 #experience{
     margin: 5% 1% ;
     font-size: 0.7em;
-    line-height: 1.7em;
+    line-height: 1.8em;
 }
 .col{
     margin-bottom: 5%;
     width:100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: inline-flex;
 }
 .col > .logo{
@@ -134,16 +144,17 @@ a:hover{
 }
 .col > .text{
     width: 70%;
-    margin-left: 2rem;
-    line-height: 1.5rem;
+    margin-left: 1rem;
+    line-height: 1.3rem;
+    text-align: justify;
     /*background: blue;*/
 }
 .col > .gameDisplay{
     width: 40%;
-    background:red;
+    /*background:red;*/
 }
 .gameDisplay >img{
-    width:80%;
+    width:100%;
 }
 .text > h4{
     margin: 0px;
